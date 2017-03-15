@@ -1,0 +1,60 @@
+body
+{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  color: #233142;
+}
+img
+{
+  width: 100%;
+  border-radius: 0.1em;
+}
+.container
+{
+  margin-bottom: 1%;
+  width: 960px;
+  margin: 0 auto;
+  margin-top: 1%;
+}
+.logo
+{
+  text-align: center;
+  font-weight: 300;
+  font-size: 2em;
+}
+.nav
+{
+  background: #233142;
+  color: white;
+  padding: 0.2%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  border-radius: 0.2em;
+}
+.nav > ul > li
+{
+  margin-right: 1%;
+  padding-right: 1%;
+  border-right: 1px #455D7A solid;
+  display: inline-block;
+}
+a:link:not(p)
+{
+  color: white;
+  text-decoration: none;
+}
+a:visited
+{
+  color: white;
+  text-decoration: none;
+}
+a:active
+{
+  color: #F95959;
+  text-decoration: none;
+}
+a:hover
+{
+  color: #455D7A;
+  text-decoration: none;
+}
