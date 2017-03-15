@@ -64,11 +64,21 @@ a:hover
 }
 .title
 {
+  font-weight: 700;
   font-size: 1.5em;
 }
 .card
 {
-  margin: 1em;
+  margin: 0.5em;
   float: left;
-  width: 40%;
+  max-width: 45%;
+}
+.footer
+{
+  text-align: center;
+  margin: 1em;
+}
+.heart
+{
+  color: #F95959;
 }
